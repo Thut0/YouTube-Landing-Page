@@ -26,6 +26,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: 8px;
+  cursor: pointer;
 }
 .logo svg {
   width: 129px;
@@ -57,12 +58,25 @@ body {
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
   width: 10%;
+  cursor: pointer;
+}
+
+.navigation-icons,
+button {
+  cursor: pointer;
 }
 .material-icons {
   color: #606060;
   margin-right: 10px;
   border-radius: none;
   background-color: transparent;
+}
+.material-icons,
+.mic {
+  cursor: pointer;
+}
+.material-symbols-outlined {
+  margin-right: 20px;
 }
 
 /* .matierial-icons,
